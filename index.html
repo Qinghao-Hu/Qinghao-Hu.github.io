@@ -20,6 +20,7 @@
 
   <!-- <meta name=viewport content="width=800"> -->
   <meta name=viewport content="width=device-width">
+  <meta charset="UTF-8">
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
   <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -75,6 +76,31 @@
 
     name {
       font-family: 'Arial', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+
+    .english {
+      font-family: 'Arial', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+
+    @font-face {
+      font-family: 'MaShanZheng';
+      src: url('fonts/MaShanZheng-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'FangZhengKaiTiJianTi';
+      src: url('fonts/FangZhengKaiTiJianTi.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'ZhenZongShengDianKaiShu';
+      src: url('fonts/ZhenZongShengDianKaiShu-2.ttf') format('truetype');
+    }
+
+    .chinese {
+      font-family: 'FangZhengKaiTiJianTi', Arial, Verdana, Helvetica, sans-serif;
       font-size: 32px;
     }
 
@@ -134,7 +160,7 @@
   </style>
   <link rel="icon" type="image/png" href="images/icon.png">
   <title>Qinghao Hu</title>
-  <meta name="description" content="I am a Ph.D. candidate of Computer Science at NTU.">
+  <meta name="description" content="Ph.D. student of Computer Science at NTU.">
   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
   <link href='https://fonts.googleapis.com/css?family=Arial:400,700,400italic,700italic' rel='stylesheet'
     type='text/css'>
@@ -169,7 +195,7 @@
             </td>
             <td valign="middle">
               <p align="left">
-                <name>Qinghao Hu &nbsp; (胡擎昊) </name>
+                <span class="english">Qinghao Hu</span>&nbsp;<span class="chinese">(胡擎昊)</span>
               </p>
               <p class="introduction">
                 I am a final-year Ph.D. student at S-Lab, <a href="https://www.ntu.edu.sg">Nanyang Technological
@@ -177,11 +203,14 @@
                 My supervisors are <a href="https://personal.ntu.edu.sg/tianwei.zhang/">Prof. Tianwei Zhang</a>
                 and
                 <a href="https://www3.ntu.edu.sg/home/ygwen/">Prof. Yonggang Wen</a>.
-                Before that, I received my M.Sc. degree from <a href="https://www.nus.edu.sg/">National University of
-                  Singapore</a> in 2020 and my B.Eng. degree from <a href="https://www.zju.edu.cn/">Zhejiang
-                  University</a> in
+                Before that, I received my M.Sc. degree from National University of
+                Singapore in 2020 and my B.Eng. degree from Zhejiang
+                University in
                 2018.
                 <br>
+                <!-- 
+                I am fortunate to be awarded the <a href="https://research.google/outreach/phd-fellowship/">Google PhD
+                  Fellowship</a>. -->
 
                 <!-- I am a recipient of Google Ph.D. Fellowship. -->
 
